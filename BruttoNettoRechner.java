@@ -19,16 +19,16 @@ public class BruttoNettoRechner {
     static double nettoGehalt;
 
     static final double DEFAULT_STEUERSATZ = 0.20;
-    static final double STEUERSATZ_STEUERKLASSE_1 = 0.3;
-    static final double STEUERSATZ_STEUERKLASSE_2 = 0.25;
-    static final double STEUERSATZ_STEUERKLASSE_3 = 0.15;
+    static final double STEUERSATZ_STEUERKLASSE_1 = 0.25;
+    static final double STEUERSATZ_STEUERKLASSE_2 = 0.2;
+    static final double STEUERSATZ_STEUERKLASSE_3 = 0.18;
     static final double STEUERSATZ_STEUERKLASSE_4 = 0.20;
     static final double STEUERSATZ_STEUERKLASSE_5 = 0.25;
 
-    static final double KRANKENVERSICHERUNGSSATZ = 0.075;
-    static final double ARBEITSLOSENVERSICHERUNGSSATZ = 0.02;
+    static final double KRANKENVERSICHERUNGSSATZ = 0.055;
+    static final double ARBEITSLOSENVERSICHERUNGSSATZ = 0.025;
     static final double PFLEGEVERSICHERUNGSSATZ = 0.0015;
-    static final double RENTENVERSICHERUNGSSATZ = 0.018;
+    static final double RENTENVERSICHERUNGSSATZ = 0.058;
 
     static final double FREIBETRAG_PRO_KIND = 2000;
 
