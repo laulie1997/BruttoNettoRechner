@@ -34,20 +34,6 @@ public class BruttoNettoRechner {
 
     static final double GRUND_STEUERFREIBETRAG = 10000;
 
-    public static void main(String[] args) {
-        inputBrutto();
-        calculateSteuerfreibetrag();
-        calculateKirchensteuer();
-        calculateKrankenversicherung();
-        calculatePflegeversicherung();
-        calculateArbeitslosenversicherung();
-        calculateRentenversicherung();
-        calculateSteuer();
-        calculateNettogehalt();
-        ausgabeErgebnisse();
-        scanner.close();
-    }
-
     public static double calculateNettogehalt() {
         nettoGehalt = bruttoGehalt - (berechneSteuer + kirchensteuer + rentenversicherung + krankenversicherung + pflegeversicherung + arbeitslosenversicherung);
         return nettoGehalt;
