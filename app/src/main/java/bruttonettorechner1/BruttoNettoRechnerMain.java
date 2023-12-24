@@ -1,3 +1,5 @@
+package bruttonettorechner1;
+
 public class BruttoNettoRechnerMain {
     public static void main(String[] args) {
         BruttoNettoRechner.inputBrutto();

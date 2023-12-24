@@ -1,3 +1,5 @@
+package bruttonettorechner1;
+
 import java.util.Scanner;
 
 public class BruttoNettoRechner {
@@ -66,8 +68,13 @@ public class BruttoNettoRechner {
     }
 
     public static double inputBrutto() {
-        System.out.print("Geben Sie Ihr jährliches Bruttogehalt ein: ");
-        bruttoGehalt = scanner.nextDouble();
+        try {
+            System.out.print("Geben Sie Ihr jährliches Bruttogehalt ein: ");
+            bruttoGehalt = scanner.nextDouble();
+            return bruttoGehalt;
+        } catch (Exception e){
+            System.out.print("Exception");
+        }
         return bruttoGehalt;
     }
 
