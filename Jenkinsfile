@@ -12,7 +12,7 @@ pipeline {
            post {
                success {
                    // Archive the JAR file as a build artifact
-                   archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
+                   archiveArtifacts artifacts: 'app/build/libs/*.jar', fingerprint: true
                }
         }
            }
