@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Gradle Build
-                    sh 'gradle clean build'
+                    bat 'gradle clean build'
                 }
             }
         }
