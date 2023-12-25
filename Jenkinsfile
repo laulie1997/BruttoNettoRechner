@@ -14,6 +14,7 @@ pipeline {
                    // Archive the JAR file as a build artifact
                    archiveArtifacts artifacts: 'build/libs/*.jar', fingerprint: true
                }
+        }
            }
     }
 }
