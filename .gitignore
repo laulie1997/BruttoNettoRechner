@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# User-specific Gradle wrapper properties
+gradle-wrapper.properties
+
+# Local Gradle build properties
+gradle-local.properties

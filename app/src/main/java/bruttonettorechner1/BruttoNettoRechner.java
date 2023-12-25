@@ -49,7 +49,7 @@ public class BruttoNettoRechner {
         ausgabeErgebnisse();
         scanner.close();
     }
-
+//Test
     public static double calculateNettogehalt() {
         nettoGehalt = bruttoGehalt - (berechneSteuer + kirchensteuer + rentenversicherung + krankenversicherung + pflegeversicherung + arbeitslosenversicherung);
         return nettoGehalt;
