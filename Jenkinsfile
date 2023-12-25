@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        // Set the JDK installation defined in Jenkins
-        JDK_HOME = tool 'JDK'
-    }
 
     stages {
         stage('Checkout') {
